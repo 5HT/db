@@ -1,0 +1,10 @@
+{application, db,
+ [
+  {description, "DB Database Abstraction"},
+  {vsn, "4.6.0"},
+  {registered, []},
+  {applications, [kernel,stdlib,kvx]},
+  {mod, { db, []}},
+  {env, []}
+ ]}.
+
